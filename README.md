@@ -19,6 +19,7 @@ This can be used to test your webserver for file relicts often left by Editors.
     - Python Requests
 
 ===============================
+### Usage:
 ``` 
 usage: hunt.py [-h] [-v] [-s] [-l] [-j]
                <file|dir> <filelist|directory> baseurl
