@@ -1,5 +1,5 @@
 # RelicHunter
-A File relict indexing tool
+## A File relict indexing tool
 
 This tool uses either a given directory or a filelist to create a searchlist of
 files. Then it looks for finding these files and variations of their filenames
@@ -8,12 +8,12 @@ on a given Webserver.
 This can be used to test your webserver for file relicts often left by Editors.
 (e.g. vim leaves files with an additional ~ in their filename).
 
-Todo:
+### Todo:
     - Get Extension from external fle or based on user input
     - Find more possible modiers for relicts
     - Optimize and Cleanup Code ;)
 
-Dependencies:
+### Dependencies:
     - Python 2.7
     - Python Argparse
     - Python Requests
