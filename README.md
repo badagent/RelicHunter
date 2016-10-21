@@ -19,7 +19,7 @@ This can be used to test your webserver for file relicts often left by Editors.
     - Python Requests
 
 ===============================
-'''
+``` 
 usage: hunt.py [-h] [-v] [-s] [-l] [-j]
                <file|dir> <filelist|directory> baseurl
 
@@ -41,4 +41,4 @@ optional arguments:
                         Url provide output file)
   -j, --juicy           Juicy extensions only (php, php4, php5, php6, php7,
                         htm, html, js, pl, py, txt, cfg, lst, xml or None)
-'''
+```
